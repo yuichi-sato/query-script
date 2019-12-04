@@ -1,0 +1,13 @@
+
+（前提）
+・mysqlコマンドが実行できる（ver5.6以上）
+・sqlplusコマンドが実行できる（ver11以上）
+
+（準備）
+・「env.txt」にMySQL/OracleのDB情報を記載する
+（MYSQL_PASSWORDはシングルクォーとで括る）
+
+sh table_record_oracle_to_msqy.sh ($1) ($2)
+
+$1 ... target Table Name 
+$2 ... target Schema 
